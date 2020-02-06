@@ -14,22 +14,47 @@ experience:
 - company: Resuelve
   position: Senior Software Developer Engineer
   timeperiod: since July 2019
-  description: Develop a batch script.
+  description:
+  - Scrum Team Leader (assign activities, estimations, US and Task creation, direct communication with Product Owner).
+  - Develop a Python batch that process billing information (ETL).
+  - Payroll and Invoice backend creation with Elixir - Phoenix (financial concepts, taxes, perceptions, fiscal and government).
+  - Implementation of a massive invoice system using threads with Elixir - Phoenix. (Thread monitoring).
+  - HR Software FrontEnd manipulation with React and VueJS (JavaScript), styles enhance SASS and CSS.
+  - Worked with DevOps team to improve the CI/CD of applications.
 
 - company: Accenture
   position: Software Developer Engineer / Product Owner
   timeperiod: October 2017 - June 2019
-  description: Fulfillment of extremely important tasks.
+  description:
+    - Convert functional requirements to technical requirements.
+    - Agile Management (User Stories, Planning, Work Assignment, Team Lead). SAFE Scale Agile Framework.
+    - Technical software documentation creation / update.
+    - SOAP Web Services (WSDL, XSD, DTD modifications).
+    - RESTful Web Services creation with NodeJS and Java Spring.
+    - Maintain a monolitic web page with PHP using Laravel and Zend Framework.
+    - NodeJS microservices development.
+    - Develop a enterprise web page with React and VueJS
 
 - company: Ideas y Proyectos Integrados
   position: Full Stack Developer
   timeperiod: January 2017 - August 2017
-  description: Making coffee and baking cookies.
+  description:
+    - ERP development with PHP - Laravel
+    - FrontEnd development with VueJS, JQuery, HTML, CSS3 and JavaScript.
+    - RESTful and SOAP Web Services.
+    - OAuth implementation with Google and Facebook.
+    - NodeJS batch implementation.
 
 - company: TecnoMTY
   position: Jr. Full Stack Developer
   timeperiod: January 2016 - August 2017
-  description: Making coffee and baking cookies.
+  description:
+    - Develop Web Services with PHP - Laravel
+    - FrontEnd development with JQuery, HTML, CSS3 and JavaScript.
+    - Developed a Web Service with Java - RestEasy and JBOSS.
+    - ERP development with Java - Struts 2.
+    - Designed Stress Tests with Apache JMeter.
+    - Reports Server development with JBOSS, Struts 2 and BIRT Reports.
 
 education:
 - degree: Bachelor's degree
@@ -46,7 +71,7 @@ skills:
   level: 90
 - name: JavaScript
   level: 90
-- name: React
+- name: React - Redux - Saga
   level: 100
 - name: Vue
   level: 100
@@ -58,7 +83,7 @@ skills:
   level: 70
 - name: Docker
   level: 100
-- name: Agile
+- name: Agile - SAFE
   level: 100
 - name: Product Owner / BA
   level: 100
@@ -68,7 +93,7 @@ skills:
 contact:
   email: developer@leoneladame.com
   phone: (+52)18711454086
-  street: 97 Niebla Senderos, Torreón, México
+  street: 79 Niebla Senderos, Torreón, México
   city:
   github: jleoneldev
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no

@@ -112,7 +112,9 @@
               </span>
 
               <div class="section-content__text">{{ experience.timeperiod }}</div>
-              <span class="section-content__text--light">{{ experience.description }}</span>
+              <template v-for="(description, index) in experience.description" >
+                <span :key="index" class="section-content__text--light--inline">&bull; {{ description }}</span>
+              </template>
             </a>
           </div>
         </div>
@@ -199,7 +201,7 @@ export default Vue.component(name, getVueOptions(name));
 @picture-size: 120px;
 @picture-offset: 35px;
 @base-padding: 30px;
-@left-column-width: 240px;
+@left-column-width: 220px;
 
 a {
   color: inherit;
@@ -294,8 +296,8 @@ a {
   margin: 8px 0;
 
   &__icon {
-    margin-right: 8px;
-    font-size: 1.4em;
+    margin-right: 4px;
+    font-size: 1.2em;
   }
 }
 
@@ -310,7 +312,7 @@ a {
 
 .section-content {
   margin-top: 5px;
-  padding-left: 32px;
+  padding-left: 10px;
   font-size: 14px;
 
   &__item {
@@ -320,7 +322,7 @@ a {
 
   &__header {
     display: block;
-    font-size: 1.1em;
+    font-size: 1.05em;
     font-weight: 500;
   }
 
@@ -336,6 +338,10 @@ a {
 
     &--light {
       font-size: 12px;
+
+      &--inline {
+        display: inline-block;
+      }
     }
   }
 
