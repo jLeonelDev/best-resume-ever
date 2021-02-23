@@ -111,7 +111,7 @@
                 <span class="section-content__plain">{{ experience.location }}</span>
               </span>
 
-              <div class="section-content__text">{{ experience.timeperiod }}</div>
+              <div class="section-content__plain">{{ experience.timeperiod }}</div>
               <template v-for="(description, index) in experience.description" >
                 <span :key="index" class="section-content__text--light--inline">&bull; {{ description }}</span>
               </template>
@@ -195,13 +195,16 @@ export default Vue.component(name, getVueOptions(name));
 </script>
 
 <style lang="less" scoped>
-@accent-color: #34495E;
-@banner-color: #42b883;
-@banner-height: 120px;
-@picture-size: 120px;
-@picture-offset: 35px;
-@base-padding: 30px;
-@left-column-width: 220px;
+@accent-color: #4A154B;
+@banner-color: #aa8121;
+@banner-tiles-color: white;
+@content-color: white;
+@tiles-color: #ECB22E;
+@banner-height: 70px;
+@picture-size: 150px;
+@picture-offset: 50px;
+@base-padding: 20px;
+@left-column-width: 185px;
 
 a {
   color: inherit;
@@ -215,18 +218,19 @@ a {
 
 .resume {
   position: relative;
-  font-family:'Roboto' !important;
-  font-size: 0.9em;
+  font-family: -apple-system, BlinkMacSystemFont !important;
+  font-size: 1em;
+  background-color: rgb(236, 236, 236);
 }
 
 .picture {
   position: absolute;
   top: @banner-height - @picture-offset;
-  left: @left-column-width + @base-padding * 2 - @picture-size / 2;
+  left: @left-column-width + @base-padding * 22 - @picture-size / 2;
   height: @picture-size;
   width: @picture-size;
   border-radius: 50%;
-  border: 5px solid @accent-color;
+  border: 3px solid @banner-color;
   content: url('../../resume/id.jpg');
   z-index: 2;
 }
@@ -241,18 +245,18 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
   */
-  color: white;
+  color: @banner-tiles-color;
 
   &__fullname {
-    font-size: 32px;
+    font-size: 35px;
   }
 
   &__position {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   &__location {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 
@@ -269,11 +273,11 @@ a {
 
   &__left {
     width: @left-column-width;
-    color: rgba(255, 255, 255, 0.59);
+    color: @content-color;
     background-color: @accent-color;
 
     .section-headline {
-      color: white;
+      color: @tiles-color;
     }
   }
 
@@ -283,7 +287,7 @@ a {
 }
 
 .section {
-  margin: 20px 0;
+  margin: 0px, 0;
 }
 
 .section-link,
@@ -303,17 +307,17 @@ a {
 
 .section-link {
   font-size: 1.1em;
-  color: rgba(255, 255, 255, 0.59) !important;
+  color: @content-color !important;
 
   &__icon {
-    color: white;
+    color: @tiles-color;
   }
 }
 
 .section-content {
-  margin-top: 5px;
-  padding-left: 10px;
-  font-size: 14px;
+  margin-top: 0px;
+  padding-left: 0px;
+  font-size: 12px;
 
   &__item {
     display: block;
@@ -321,14 +325,17 @@ a {
   }
 
   &__header {
+    color: @banner-color;
     display: block;
-    font-size: 1.05em;
-    font-weight: 500;
+    font-size: 1.06em;
+    font-weight: 700;
   }
 
   &__subheader {
+    color: @accent-color;
+    font-size: 1.06em;
     display: block;
-    font-weight: 400;
+    font-weight: 600;
   }
 
   &__plain,
@@ -346,8 +353,8 @@ a {
   }
 
   &__plain {
-    display: inline;
-    font-weight: 300;
+    display: block;
+    font-weight: 200;
   }
 
   &__item-grid {
@@ -366,6 +373,7 @@ a {
   flex-wrap: wrap;
   margin-top: 5px;
   margin-bottom: 5px;
+  font-size: 12px;
 }
 
 .grid-item {
@@ -374,8 +382,8 @@ a {
 
 .squarred-grid-item {
   display: block;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid @content-color;
+  color: @content-color;
   margin-top: 5px;
   padding: 5px;
 }

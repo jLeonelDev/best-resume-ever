@@ -3,7 +3,7 @@ name:
   first: Leonel
   middle:
   last: Adame
-about: Enthusiastic of Test Driven Design (TDD), leading a development team with more than 20 resources, he have worked in all the software development process from the software requirements specification (SRS) to production delivery applying a Continuous Integration and Continuous Delivery (CI/CD). Worked as a Back End Developer, Front End Developer, Business Analyst and Product Owner.
+about: Enthusiast of Test Driven Design (TDD), he has led development teams with more than 20 resources, he has worked throughout the software development process from idea to client delivery, mainly as a developer. He has worked as a back-end developer, front-end developer, business analyst, product owner and DevOps.
 position: Senior Software Developer Engineer
 
 birth:
@@ -11,50 +11,72 @@ birth:
   location: Mexico
 
 experience:
-- company: Resuelve
-  position: Senior Software Developer Engineer
+- company: Resuelve tu Deuda
+  position: Senior Software Engineer
   timeperiod: since July 2019
   description:
-  - Scrum Team Leader (assign activities, estimations, US and Task creation, direct communication with Product Owner).
-  - Develop a Python batch that process billing information (ETL).
-  - Payroll and Invoice backend creation with Elixir - Phoenix (financial concepts, taxes, perceptions, fiscal and government).
-  - Implementation of a massive invoice system using threads with Elixir - Phoenix. (Thread monitoring).
-  - HR Software FrontEnd manipulation with React and VueJS (JavaScript), styles enhance SASS and CSS.
-  - Worked with DevOps team to improve the CI/CD of applications.
+  - Created the backend for a payroll and invoice system with Elixir.
+  - Scrum Team Leader (activities assignment, time estimations, User Story and Task creation and priority definition).
+  - Helped team members (Juniors and Mids developers) to grow inside the company.
+  - Developed a Python batch that process billing information (ETL).
+  - Implemented a massive invoice system using multi threading with Elixir.
+  - Maintained a Human Resource Application with React..
+  - Created an expressions evaluator software to assign possible clients to sales people automatically in order to increase sales with Elixir and React.
+  - Worked with DevOps team to improve the CI/CD of applications and increase the IT infrastructure with Google Cloud Platform, Kubernetes and Drone.
+  - Implemented an ElasticSearch to support the aggressive company growth.
+  - Helped company to complete the yearly OKRs.
 
-- company: Accenture
-  position: Software Developer Engineer / Product Owner
-  timeperiod: October 2017 - June 2019
+- company: Vendwatch Telematics (Part-Time)
+  position: Senior Software Engineer
+  timeperiod: March 2020 - January 2021
   description:
-    - Convert functional requirements to technical requirements.
-    - Agile Management (User Stories, Planning, Work Assignment, Team Lead). SAFE Scale Agile Framework.
-    - Technical software documentation creation / update.
-    - SOAP Web Services (WSDL, XSD, DTD modifications).
-    - RESTful Web Services creation with NodeJS and Java Spring.
-    - Maintain a monolitic web page with PHP using Laravel and Zend Framework.
-    - NodeJS microservices development.
-    - Develop a enterprise web page with React and VueJS
+  - Created the backend for a mobile application with NodeJS.
+  - Maintained a legacy project with Yii Framework.
+  - Migrated all the company infrastructure to Kubernetes.
+  - Implemented CI/CD in all the applications.
+  - Enhanced the code coverage adding unit tests.
+  - Decreased the productive errors.
 
-- company: Ideas y Proyectos Integrados
-  position: Full Stack Developer
+- company: Accenture (T-Mobile)
+  position: Business Analyst
+  timeperiod: March 2018 - July 2019
+  description:
+    - Converted functional requirements to technical requirements.
+    - Agile Management (User Stories, Planning, Work Assignment, Team Lead, Define priorities). 
+    - Created and modified Technical software documentation.
+    - Handled complex SOAP Web Services (WSDL, XSD, DTD modifications).
+    - Implemented microservices with NodeJS.
+    - Endorse developers to apply unit test increasing the code coverage.
+
+- company: Accenture (The Walt Disney Company)
+  position: Full Stack Engineer
+  timeperiod: August 2017 - February 2018
+  description:
+    - Maintained very important multi region and multi language web page with Laravel and Zend Framework.
+    - Maintained NodeJS microservices.
+    - Enhanced all unit test increasing the code coverage.
+    - Created a microservice with Sprint Boot.
+    - Developed a enterprise web page with ReactJS.
+
+- company: Zenddo
+  position: Full Stack Engineer
   timeperiod: January 2017 - August 2017
   description:
-    - ERP development with PHP - Laravel
-    - FrontEnd development with VueJS, JQuery, HTML, CSS3 and JavaScript.
-    - RESTful and SOAP Web Services.
-    - OAuth implementation with Google and Facebook.
-    - NodeJS batch implementation.
+    - Develop an big ERP system with PHP - Laravel.
+    - Created the company initial web page with VueJS.
+    - Implemented Authentification with Google and Facebook.
+    - Created a NodeJS batch to process big loads of data (ETL).
 
 - company: TecnoMTY
-  position: Jr. Full Stack Developer
-  timeperiod: January 2016 - August 2017
+  position: Full Stack Engineer
+  timeperiod: January 2016 - December 2016
   description:
-    - Develop Web Services with PHP - Laravel
-    - FrontEnd development with JQuery, HTML, CSS3 and JavaScript.
-    - Developed a Web Service with Java - RestEasy and JBOSS.
-    - ERP development with Java - Struts 2.
+    - Developed Web Services for Mobile Applications with Laravel.
+    - Created a Hospital Veterinary web page.
+    - Mantained a Web Service built in Java and JBOSS.
+    - Created and mantained an ERP with Java Struts 2.
     - Designed Stress Tests with Apache JMeter.
-    - Reports Server development with JBOSS, Struts 2 and BIRT Reports.
+    - Developed a Reports Server with JBOSS, Struts 2 and BIRT Reports.
 
 education:
 - degree: Bachelor's degree
@@ -63,37 +85,37 @@ education:
 
 # skill level goes 0 to 100
 skills:
-- name: Elixir - Phoenix
+- name: Elixir - Phoenix Framework
+  level: 100
+- name: Node.js - ExpresJS
+  level: 100
+- name: ReactJS
+  level: 100
+- name: Kubernetes
+  level: 100
+- name: CircleCI
+  level: 100
+- name: Docker
+  level: 100
+- name: JavaScript
   level: 100
 - name: PHP - Laravel - Zend
   level: 100
-- name: HTML5/CSS3
-  level: 90
-- name: JavaScript
-  level: 90
-- name: React - Redux - Saga
-  level: 100
-- name: Vue
-  level: 100
-- name: Node.js
-  level: 80
-- name: Python (Batch Scripts)
+- name: VueJS
   level: 70
-- name: Java - Spring
-  level: 70
-- name: Docker
-  level: 100
 - name: Agile - SAFE
   level: 100
-- name: Product Owner / BA
+- name: Product Owner / Business Analyst
   level: 100
-- name: Git
-  level: 100
+- name: HTML
+  level: 80
+- name: CSS
+  level: 80
 
 contact:
   email: developer@leoneladame.com
-  phone: (+52)18711454086
-  street: 79 Niebla Senderos, Torreón, México
+  phone: (+52) 8711454086
+  street: 137 Prolongación San Antonio, México City
   city:
   github: jleoneldev
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
