@@ -13,15 +13,14 @@ birth:
 experience:
 - company: Resuelve tu Deuda
   position: Senior Software Engineer
-  timeperiod: since July 2019
+  timeperiod: July 2019 - March 2021
   description:
-  - Created the backend for a payroll and invoice system with Elixir.
+  - Maintained a Human Resource Application with React.
+  - Created an expressions evaluator software to assign possible clients to sales people automatically in order to increase sales with Elixir and React.
+  - Created the backend and frontend for a payroll and invoice system with React and Elixir.
   - Scrum Team Leader (activities assignment, time estimations, User Story and Task creation and priority definition).
-  - Helped team members (Juniors and Mids developers) to grow inside the company.
   - Developed a Python batch that process billing information (ETL).
   - Implemented a massive invoice system using multi threading with Elixir.
-  - Maintained a Human Resource Application with React..
-  - Created an expressions evaluator software to assign possible clients to sales people automatically in order to increase sales with Elixir and React.
   - Worked with DevOps team to improve the CI/CD of applications and increase the IT infrastructure with Google Cloud Platform, Kubernetes and Drone.
   - Implemented an ElasticSearch to support the aggressive company growth.
   - Helped company to complete the yearly OKRs.
@@ -30,17 +29,17 @@ experience:
   position: Senior Software Engineer
   timeperiod: March 2020 - January 2021
   description:
+  - Created a frontend to show Vending Machine sales with React.
   - Created the backend for a mobile application with NodeJS.
-  - Maintained a legacy project with Yii Framework.
   - Migrated all the company infrastructure to Kubernetes.
   - Implemented CI/CD in all the applications.
   - Enhanced the code coverage adding unit tests.
-  - Decreased the productive errors.
 
 - company: Accenture (T-Mobile)
   position: Business Analyst
   timeperiod: March 2018 - July 2019
   description:
+    - Helped in the creation of React project infraestructure.
     - Converted functional requirements to technical requirements.
     - Agile Management (User Stories, Planning, Work Assignment, Team Lead, Define priorities). 
     - Created and modified Technical software documentation.
@@ -52,11 +51,11 @@ experience:
   position: Full Stack Engineer
   timeperiod: August 2017 - February 2018
   description:
+    - Developed a enterprise web page with ReactJS.
     - Maintained very important multi region and multi language web page with Laravel and Zend Framework.
     - Maintained NodeJS microservices.
     - Enhanced all unit test increasing the code coverage.
     - Created a microservice with Sprint Boot.
-    - Developed a enterprise web page with ReactJS.
 
 - company: Zenddo
   position: Full Stack Engineer
